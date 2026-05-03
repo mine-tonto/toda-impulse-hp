@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | TODA IMPULSE",
   },
   description:
-    "一人じゃない経営へ。戸田で事業を営む若手が、人としてつながり、信頼と仕事を育てる戸田市商工会青年部のサイトです。",
+    "戸田で事業を営む若手経営者が、例会や地域活動で顔を合わせながら信頼を育てる戸田市商工会青年部のサイトです。",
 };
 
 export default function RootLayout({

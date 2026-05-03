@@ -5,12 +5,11 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const navItems = [
-  { href: "/", label: "HOME" },
-  { href: "/about", label: "ABOUT" },
-  { href: "/business", label: "FLOW" },
-  { href: "/members", label: "MEMBERS" },
-  { href: "/join", label: "JOIN" },
-  { href: "/news", label: "NEWS" },
+  { href: "/", label: "トップ" },
+  { href: "/activities", label: "活動報告" },
+  { href: "/about", label: "青年部について" },
+  { href: "/members", label: "メンバー" },
+  { href: "/join", label: "入会案内" },
 ];
 
 export function SiteHeader() {
@@ -40,7 +39,7 @@ export function SiteHeader() {
     <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-black-base/82 backdrop-blur-xl">
       <div className="section-shell flex h-16 items-center justify-between">
         <Link href="/" className="focus-ring flex items-center gap-3">
-          <span className="display-font text-2xl leading-none text-white">
+          <span className="display-font rotate-[-2deg] text-2xl leading-none text-white">
             TODA
           </span>
           <span className="h-6 w-px bg-blue-accent" />
@@ -51,12 +50,12 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 text-xs font-bold uppercase text-white/75 md:flex">
+        <nav className="hidden items-center gap-5 text-xs font-bold text-white/75 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="focus-ring border-b border-transparent py-1 transition hover:border-blue-soft hover:text-white"
+              className="focus-ring border-b border-transparent py-1 transition hover:border-yellow-accent hover:text-white"
             >
               {item.label}
             </Link>
@@ -65,9 +64,9 @@ export function SiteHeader() {
 
         <Link
           href="/join#contact"
-          className="focus-ring hidden rounded-md bg-blue-accent px-4 py-2 text-xs font-black uppercase text-white transition hover:bg-blue-soft hover:text-black-base md:inline-flex"
+          className="focus-ring hidden rotate-[1deg] rounded-md bg-blue-accent px-4 py-2 text-xs font-black text-white transition hover:bg-blue-soft hover:text-black-base md:inline-flex"
         >
-          VISIT
+          見学
         </Link>
 
         <button

@@ -49,7 +49,7 @@ export default async function MemberProfilePage({
           TODA IMPULSE
         </Link>
         <Link href="/members" className="focus-ring text-xs font-black">
-          BACK
+          メンバー一覧へ
         </Link>
       </header>
 
@@ -61,7 +61,7 @@ export default async function MemberProfilePage({
             width={720}
             height={920}
             priority
-            className="relative z-10 h-[78svh] max-h-[820px] w-[78%] object-cover object-center shadow-2xl"
+            className="relative z-10 h-[78svh] max-h-[820px] w-[78%] rotate-[1deg] border-[7px] border-white bg-white object-cover object-center shadow-2xl"
           />
           <div className="display-font pointer-events-none absolute right-3 top-20 text-7xl leading-none text-white/30 [writing-mode:vertical-rl] md:text-8xl">
             {member.name_vertical}
@@ -113,10 +113,10 @@ export default async function MemberProfilePage({
       <section className="section-shell">
         <div className="grid border-t-8 border-blue-accent md:grid-cols-4">
           {[
-            ["Attendance", member.stats.attendance],
-            ["Introduced", member.stats.introduced],
-            ["Events", member.stats.events],
-            ["Works", member.stats.works],
+            ["参加", member.stats.attendance],
+            ["紹介", member.stats.introduced],
+            ["活動", member.stats.events],
+            ["実績", member.stats.works],
           ].map(([label, value]) => (
             <div key={label} className="border-b border-white/12 p-6 md:border-r">
               <div className="text-xs font-black uppercase text-white/48">
@@ -132,14 +132,14 @@ export default async function MemberProfilePage({
 
       <section className="section-shell grid gap-4 py-16 lg:grid-cols-2">
         <div className="rounded-md border border-white/10 p-6">
-          <div className="text-xs font-black uppercase text-blue-soft">ABOUT</div>
+          <div className="text-xs font-black uppercase text-blue-soft">この街への想い</div>
           <p className="mt-4 text-base leading-8 text-white/75">
             {member.city_thought}
           </p>
         </div>
         <div className="rounded-md border border-white/10 p-6">
           <div className="text-xs font-black uppercase text-blue-soft">
-            BUSINESS
+            仕事のこと
           </div>
           <p className="mt-4 text-base leading-8 text-white/75">
             {member.business_pr}
@@ -147,7 +147,7 @@ export default async function MemberProfilePage({
         </div>
         <div className="rounded-md border border-white/10 p-6">
           <div className="text-xs font-black uppercase text-blue-soft">
-            PROFILE
+            ふだんの活動
           </div>
           <dl className="mt-4 grid gap-3 text-sm text-white/75">
             <div className="flex justify-between gap-4">
@@ -165,7 +165,7 @@ export default async function MemberProfilePage({
           </dl>
         </div>
         <div className="rounded-md border border-white/10 p-6">
-          <div className="text-xs font-black uppercase text-blue-soft">SKILLS</div>
+          <div className="text-xs font-black uppercase text-blue-soft">できること</div>
           <div className="mt-4 flex flex-wrap gap-2">
             {member.skills.map((skill) => (
               <span
@@ -179,7 +179,7 @@ export default async function MemberProfilePage({
         </div>
         <div className="rounded-md border border-white/10 p-6">
           <div className="text-xs font-black uppercase text-blue-soft">
-            MATCHING
+            つながりたい人
           </div>
           <ul className="mt-4 grid gap-3 text-sm font-bold text-white/75">
             {member.matching.map((item) => (
@@ -189,7 +189,7 @@ export default async function MemberProfilePage({
         </div>
         <div className="rounded-md border border-white/10 p-6">
           <div className="text-xs font-black uppercase text-blue-soft">
-            CONNECTION
+            青年部で生まれたこと
           </div>
           <p className="mt-4 text-base leading-8 text-white/75">
             {member.connection_story}

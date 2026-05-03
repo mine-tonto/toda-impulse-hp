@@ -19,8 +19,10 @@ export function ActivityCard({
         : "bg-blue-accent text-white border-blue-accent";
 
   return (
-    <article className={`rounded-md border p-6 ${toneClass}`}>
-      <div className="display-font text-7xl leading-none opacity-40">{number}</div>
+    <article className={`rounded-md border p-6 shadow-[6px_6px_0_rgba(0,0,0,0.18)] ${toneClass}`}>
+      <div className="display-font inline-block rotate-[-2deg] text-7xl leading-none opacity-40">
+        {number}
+      </div>
       <h3 className="mt-5 text-2xl font-black">{title}</h3>
       <p className="mt-4 text-sm leading-7 opacity-75">{body}</p>
     </article>

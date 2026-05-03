@@ -4,8 +4,8 @@ import type { Member } from "@/app/members/types";
 
 export function MemberCard({ member }: { member: Member }) {
   return (
-    <article className="blue-edge flex h-full flex-col overflow-hidden rounded-md border border-white/12 bg-white text-black-base">
-      <div className="relative h-72">
+    <article className="blue-edge flex h-full flex-col overflow-hidden rounded-md border border-black/10 bg-white text-black-base shadow-[7px_7px_0_rgba(22,131,255,0.16)]">
+      <div className="photo-print m-3 mb-0 h-72">
         <Image
           src={member.image_path}
           alt={`${member.name}さんの写真`}
@@ -13,7 +13,7 @@ export function MemberCard({ member }: { member: Member }) {
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
           className="object-cover"
         />
-        <div className="absolute left-3 top-3 rounded-md bg-blue-accent px-3 py-1 text-xs font-black text-white">
+        <div className="absolute left-3 top-3 rotate-[-1deg] rounded-md bg-blue-accent px-3 py-1 text-xs font-black text-white">
           {member.category}
         </div>
       </div>
@@ -27,6 +27,9 @@ export function MemberCard({ member }: { member: Member }) {
         </div>
         <p className="mt-4 line-clamp-3 text-sm leading-7 text-black/70">
           {member.message}
+        </p>
+        <p className="mt-4 rounded-md bg-paper-blue px-3 py-3 text-sm font-bold leading-7 text-black/76">
+          周りから:「{member.member_comment}」
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
           {member.skills.slice(0, 3).map((skill) => (

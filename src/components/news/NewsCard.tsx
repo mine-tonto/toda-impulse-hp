@@ -19,8 +19,8 @@ export function NewsCard({
   href = "/news",
 }: NewsCardProps) {
   return (
-    <article className="blue-edge overflow-hidden rounded-md border border-white/12 bg-white text-black-base">
-      <div className="relative h-52">
+    <article className="blue-edge overflow-hidden rounded-md border border-black/10 bg-white text-black-base shadow-[6px_6px_0_rgba(22,131,255,0.14)]">
+      <div className="photo-print m-3 mb-0 h-52">
         <Image
           src={image}
           alt={title}
@@ -32,7 +32,7 @@ export function NewsCard({
       <div className="p-5">
         <div className="flex items-center justify-between gap-3 text-xs font-black">
           <span className="text-blue-accent">{date}</span>
-          <span className="rounded-md bg-black-base px-2 py-1 text-white">
+          <span className="rotate-[1deg] rounded-md bg-black-base px-2 py-1 text-white">
             {category}
           </span>
         </div>
@@ -42,7 +42,7 @@ export function NewsCard({
           href={href}
           className="focus-ring mt-5 inline-flex text-sm font-black text-blue-accent"
         >
-          READ MORE →
+          続きを読む →
         </Link>
       </div>
     </article>
