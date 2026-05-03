@@ -12,9 +12,9 @@ export function BusinessCaseCard({
   image,
 }: BusinessCaseCardProps) {
   return (
-    <article className="blue-edge overflow-hidden rounded-md border border-black/10 bg-white text-black-base shadow-[6px_6px_0_rgba(22,131,255,0.14)]">
+    <article className="blue-edge overflow-hidden rounded-md border border-white/12 bg-white text-black-base">
       <div
-        className="m-3 h-48 rounded-sm bg-cover bg-center"
+        className="h-48 bg-cover bg-center"
         style={{ backgroundImage: `url(${image})` }}
         role="img"
         aria-label={title}

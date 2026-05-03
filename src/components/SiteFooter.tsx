@@ -1,10 +1,11 @@
 import Link from "next/link";
 
 const nav = [
-  { href: "/activities", label: "活動報告" },
   { href: "/about", label: "商工会青年部とは" },
+  { href: "/business", label: "仕事が生まれる仕組み" },
   { href: "/members", label: "部員紹介" },
   { href: "/join", label: "入部案内" },
+  { href: "/news", label: "お知らせ" },
 ];
 
 export function SiteFooter() {
@@ -12,11 +13,9 @@ export function SiteFooter() {
     <footer className="border-t-8 border-blue-accent bg-black-base text-white">
       <div className="section-shell grid gap-10 py-14 lg:grid-cols-[1.2fr_0.8fr_1fr]">
         <div>
-          <div className="display-font inline-block rotate-[-1deg] text-5xl leading-none">
-            TODA IMPULSE
-          </div>
+          <div className="display-font text-5xl leading-none">TODA IMPULSE</div>
           <p className="mt-5 max-w-md text-sm leading-7 text-white/66">
-            戸田で事業を営む人が、顔を合わせて話し、地域で一緒に動きながら、信頼と仕事を育てていく場所です。
+            一人じゃない経営へ。戸田で事業を営む人が、人としてつながり、信頼と仕事を育てていく場所です。
           </p>
         </div>
         <div>
