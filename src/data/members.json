@@ -1,0 +1,387 @@
+[
+  {
+    "id": "yamada",
+    "name": "山田 太郎",
+    "name_en": "TARO YAMADA",
+    "name_vertical": "YAMADA",
+    "company": "株式会社ヤマダ工務店",
+    "position": "代表取締役",
+    "category": "建設業",
+    "role_tag": "2024部長",
+    "join_year": "2018年",
+    "committee": "交流委員会",
+    "area": "上戸田",
+    "message": "地元に根ざした丁寧な仕事と、相談しやすい関係づくりを大切にしています。",
+    "business_pr": "住宅リフォーム、リノベーション、新築注文住宅、オフィス内装工事に対応します。",
+    "city_thought": "この街の日常に寄り添える会社でありたいです。",
+    "connection_story": "商工祭への参加をきっかけに、地域のお客様に知っていただく機会が増えました。",
+    "member_comment": "いつも場を明るくしてくれる、相談しやすい存在です。",
+    "matching": [
+      "不動産業の方",
+      "Webマーケティングに強い方",
+      "飲食店オーナー"
+    ],
+    "stats": {
+      "attendance": "92%",
+      "introduced": "8",
+      "events": "42",
+      "works": "60"
+    },
+    "skills": [
+      "リフォーム",
+      "耐震補強",
+      "省エネ住宅",
+      "設計デザイン",
+      "補助金申請"
+    ],
+    "address": "埼玉県戸田市上戸田",
+    "tel": "048-000-0000",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "",
+      "facebook": "",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-03.png",
+    "gallery": [
+      "/media/shokosai-2025-10-25/photo-18.jpg",
+      "/media/shokosai-2025-10-25/photo-09.jpg"
+    ],
+    "related_ids": [
+      "sato",
+      "suzuki",
+      "takahashi"
+    ]
+  },
+  {
+    "id": "sato",
+    "name": "佐藤 花子",
+    "name_en": "HANAKO SATO",
+    "name_vertical": "SATO",
+    "company": "さとう行政書士事務所",
+    "position": "代表",
+    "category": "士業",
+    "role_tag": "研修担当",
+    "join_year": "2020年",
+    "committee": "研修委員会",
+    "area": "戸田公園",
+    "message": "小さな不安を早めに相談できる、身近な専門家でありたいです。",
+    "business_pr": "許認可、補助金申請、法人設立、契約書まわりの相談をサポートします。",
+    "city_thought": "地元の挑戦が続くように、制度面から背中を支えたいです。",
+    "connection_story": "例会で出会った事業者から、補助金や許認可の相談をいただくようになりました。",
+    "member_comment": "難しい話をわかりやすく整理してくれる頼れる人です。",
+    "matching": [
+      "創業予定の方",
+      "店舗開業を考える方",
+      "補助金を活用したい方"
+    ],
+    "stats": {
+      "attendance": "88%",
+      "introduced": "12",
+      "events": "35",
+      "works": "48"
+    },
+    "skills": [
+      "許認可",
+      "補助金",
+      "法人設立",
+      "契約書",
+      "事業計画"
+    ],
+    "address": "埼玉県戸田市本町",
+    "tel": "048-000-0001",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "",
+      "facebook": "",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-05.png",
+    "gallery": [
+      "/media/reikai-2025-09-10/photo-03.jpg",
+      "/media/shokosai-2025-10-25/photo-12.jpg"
+    ],
+    "related_ids": [
+      "yamada",
+      "ito",
+      "kobayashi"
+    ]
+  },
+  {
+    "id": "suzuki",
+    "name": "鈴木 健",
+    "name_en": "KEN SUZUKI",
+    "name_vertical": "SUZUKI",
+    "company": "スズキベーカリー",
+    "position": "店主",
+    "category": "飲食業",
+    "role_tag": "地域事業担当",
+    "join_year": "2019年",
+    "committee": "地域活性委員会",
+    "area": "新曽",
+    "message": "毎日通いたくなる店づくりと、地域イベントでの出会いを大切にしています。",
+    "business_pr": "食パン、惣菜パン、季節商品の製造販売。イベント出店や法人向け注文も対応します。",
+    "city_thought": "子どもから大人まで、戸田の暮らしに残る味を届けたいです。",
+    "connection_story": "商工祭出店と会員の口コミで、お店を知ってもらう入口が広がりました。",
+    "member_comment": "地域の空気を明るくする、まちのパン屋さんです。",
+    "matching": [
+      "イベント主催者",
+      "コーヒー店",
+      "販促デザイナー"
+    ],
+    "stats": {
+      "attendance": "84%",
+      "introduced": "15",
+      "events": "51",
+      "works": "73"
+    },
+    "skills": [
+      "パン製造",
+      "イベント出店",
+      "商品開発",
+      "店舗運営",
+      "ギフト対応"
+    ],
+    "address": "埼玉県戸田市新曽",
+    "tel": "048-000-0002",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "https://instagram.com/example",
+      "facebook": "",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-01.png",
+    "gallery": [
+      "/media/shokosai-2025-10-25/photo-01.jpg",
+      "/media/shokosai-2025-10-25/photo-18.jpg"
+    ],
+    "related_ids": [
+      "yamada",
+      "takahashi",
+      "watanabe"
+    ]
+  },
+  {
+    "id": "takahashi",
+    "name": "高橋 一郎",
+    "name_en": "ICHIRO TAKAHASHI",
+    "name_vertical": "TAKAHASHI",
+    "company": "Takahashi Creative",
+    "position": "ディレクター",
+    "category": "制作業",
+    "role_tag": "広報担当",
+    "join_year": "2021年",
+    "committee": "広報委員会",
+    "area": "下戸田",
+    "message": "伝わるデザインで、地域のお店や会社の魅力を形にします。",
+    "business_pr": "Webサイト、ロゴ、チラシ、写真撮影、SNS運用まで一貫して支援します。",
+    "city_thought": "戸田の事業者の個性が、もっと自然に伝わる街にしたいです。",
+    "connection_story": "青年部内の相談から、飲食店のメニュー制作や採用ページ制作につながりました。",
+    "member_comment": "話を聞いて形にする力があり、初回相談でも安心できます。",
+    "matching": [
+      "飲食店",
+      "小売店",
+      "採用を強化したい企業"
+    ],
+    "stats": {
+      "attendance": "90%",
+      "introduced": "10",
+      "events": "28",
+      "works": "39"
+    },
+    "skills": [
+      "Web制作",
+      "ロゴ",
+      "撮影",
+      "SNS",
+      "チラシ"
+    ],
+    "address": "埼玉県戸田市下戸田",
+    "tel": "048-000-0003",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "https://instagram.com/example",
+      "facebook": "",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-02.png",
+    "gallery": [
+      "/media/reikai-2025-09-10/photo-10.jpg",
+      "/media/shokosai-2025-10-25/photo-31.jpg"
+    ],
+    "related_ids": [
+      "sato",
+      "suzuki",
+      "kobayashi"
+    ]
+  },
+  {
+    "id": "ito",
+    "name": "伊藤 真由",
+    "name_en": "MAYU ITO",
+    "name_vertical": "ITO",
+    "company": "Ito Accounting Partners",
+    "position": "税理士",
+    "category": "士業",
+    "role_tag": "会計担当",
+    "join_year": "2017年",
+    "committee": "総務委員会",
+    "area": "笹目",
+    "message": "数字をきっかけに、経営者が次の判断をしやすい状態をつくります。",
+    "business_pr": "月次決算、資金繰り、創業支援、法人税務、クラウド会計導入を支援します。",
+    "city_thought": "地域の小さな事業が続いていくことが、街の強さになると考えています。",
+    "connection_story": "例会で顔を合わせる中で、創業直後の資金相談が自然に生まれました。",
+    "member_comment": "数字に強く、言葉はやさしい。経営者の味方です。",
+    "matching": [
+      "創業者",
+      "法人化を考える個人事業主",
+      "資金繰りを見直したい方"
+    ],
+    "stats": {
+      "attendance": "94%",
+      "introduced": "18",
+      "events": "44",
+      "works": "81"
+    },
+    "skills": [
+      "税務",
+      "資金繰り",
+      "クラウド会計",
+      "創業支援",
+      "月次決算"
+    ],
+    "address": "埼玉県戸田市笹目",
+    "tel": "048-000-0004",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "",
+      "facebook": "https://facebook.com/example",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-04.png",
+    "gallery": [
+      "/media/reikai-2025-09-10/photo-08.jpg",
+      "/media/shokosai-2025-10-25/photo-22.jpg"
+    ],
+    "related_ids": [
+      "sato",
+      "watanabe",
+      "yamada"
+    ]
+  },
+  {
+    "id": "kobayashi",
+    "name": "小林 大輔",
+    "name_en": "DAISUKE KOBAYASHI",
+    "name_vertical": "KOBAYASHI",
+    "company": "Kobayashi Logistics",
+    "position": "事業責任者",
+    "category": "物流業",
+    "role_tag": "事業推進",
+    "join_year": "2022年",
+    "committee": "事業委員会",
+    "area": "美女木",
+    "message": "地域の商流を支える仕事として、早く正確な配送体制を磨いています。",
+    "business_pr": "小口配送、イベント搬入、倉庫保管、EC出荷代行を地域密着で支援します。",
+    "city_thought": "戸田の立地を活かし、地域事業者の動きやすさを支えたいです。",
+    "connection_story": "商工祭の搬入相談をきっかけに、会員企業の定期配送につながりました。",
+    "member_comment": "現場感があり、動きが早い。困った時に頼れる人です。",
+    "matching": [
+      "EC事業者",
+      "イベント出店者",
+      "食品製造業"
+    ],
+    "stats": {
+      "attendance": "80%",
+      "introduced": "7",
+      "events": "25",
+      "works": "36"
+    },
+    "skills": [
+      "小口配送",
+      "搬入出",
+      "倉庫保管",
+      "EC出荷",
+      "現場調整"
+    ],
+    "address": "埼玉県戸田市美女木",
+    "tel": "048-000-0005",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "",
+      "facebook": "",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-01.png",
+    "gallery": [
+      "/media/shokosai-2025-10-25/photo-05.jpg",
+      "/media/shokosai-2025-10-25/photo-43.jpg"
+    ],
+    "related_ids": [
+      "takahashi",
+      "suzuki",
+      "sato"
+    ]
+  },
+  {
+    "id": "watanabe",
+    "name": "渡辺 亮",
+    "name_en": "RYO WATANABE",
+    "name_vertical": "WATANABE",
+    "company": "Watanabe Auto Service",
+    "position": "代表",
+    "category": "自動車整備",
+    "role_tag": "安全管理",
+    "join_year": "2016年",
+    "committee": "地域活性委員会",
+    "area": "氷川町",
+    "message": "仕事も地域活動も、長く付き合える信頼を一つずつ積み重ねます。",
+    "business_pr": "車検、点検、修理、法人車両管理、イベント車両サポートを行います。",
+    "city_thought": "移動を支える仕事を通じて、戸田の暮らしと事業を支えたいです。",
+    "connection_story": "会員紹介で法人車両の相談が増え、継続的なメンテナンスにつながりました。",
+    "member_comment": "落ち着いていて誠実。安心して紹介できる整備士です。",
+    "matching": [
+      "法人車両を持つ会社",
+      "配送業",
+      "イベント運営者"
+    ],
+    "stats": {
+      "attendance": "86%",
+      "introduced": "9",
+      "events": "33",
+      "works": "58"
+    },
+    "skills": [
+      "車検",
+      "点検",
+      "修理",
+      "法人車両",
+      "安全管理"
+    ],
+    "address": "埼玉県戸田市氷川町",
+    "tel": "048-000-0006",
+    "url": "https://example.com",
+    "sns_links": {
+      "instagram": "",
+      "facebook": "https://facebook.com/example",
+      "line": "",
+      "website": "https://example.com"
+    },
+    "image_path": "/images/profiles/profile-03.png",
+    "gallery": [
+      "/media/shokosai-2025-10-25/photo-08.jpg",
+      "/media/shokosai-2025-10-25/photo-40.jpg"
+    ],
+    "related_ids": [
+      "kobayashi",
+      "ito",
+      "suzuki"
+    ]
+  }
+]
